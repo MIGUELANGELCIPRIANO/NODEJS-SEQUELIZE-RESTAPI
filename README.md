@@ -2,42 +2,42 @@
 
 <img width="50%" src="https://i.postimg.cc/C5y1j08k/SEQUELIZE-REST-API.jpg" />
 
-## INTRODUCCIÓN
+## INTRODUCTION
 
-En este proyecto crearemos una REST API de **Node.js** utilizando **Sequelize**, como ORM, y **PostgreSQL**, como base de datos relacional, para la ejecución de consultas y creación de tablas.
-La REST API tendrá un endpoint de proyectos y cada proyecto a sus vez constará de diferentes tareas, estableciendo una relación de uno a muchos (1:N).
-Dicho proyecto tiene el objetivo de entender el funcionamiento básico de **Sequelize**, creación de rutas, CRUD (CREATE, READ, UPDATE, DELETE) y conexión con una base de datos relacional.
+In this project we will create a **Node.js** REST API using **Sequelize**, as ORM, and **PostgreSQL**, as relational database, for query execution and table creation.
+The REST API will have a project endpoint and each project in turn will consist of different tasks, establishing a one-to-many (1:N) relationship.
+This project aims to understand the basic operation of **Sequelize**, route creation, CRUD (CREATE, READ, UPDATE, DELETE) and connection to a relational database.
 
-## TECNOLOGÍAS
+## TECHNOLOGIES
 
 - Node.js
 - Sequelize
 - Express.js
 - PostgreSQL
 
-## INSTALACIÓN
+## INSTALLATION
 
-1. Instalar **Node.js**.
-2. Instalar **PostgreSQL**.
-3. Crear una base de datos con el nombre `proyectsdb`.
-4. Crear un archivo .env dentro de ./NODEJS-SEQUELIZE-RESTAPI y reemplazar `usuariopostgres` y `passwordpostgres` con sus credenciales.
+1. Install **Node.js**.
+2. Install **PostgreSQL**.
+3. Create a database with the name `projectsdb`.
+4. Create an .env file inside ./NODEJS-SEQUELIZE-RESTAPI and replace `userpostgres` and `passwordpostgres` with your credentials.
 
 ```js
 DB_NAME = proyectsdb
-DB_USER = usuariopostgres
+DB_USER = userpostgres
 DB_PASSWORD = passwordpostgres
 ```
 
-5. Utilizar el administrador de paquetes **npm** para instalar.
-6. Ejecutar el comando desde la terminal ubicado en ./NODEJS-SEQUELIZE-RESTAPI.
+5. Use the **npm** package manager to install.
+6. Execute the command from the terminal located in ./NODEJS-SEQUELIZE-RESTAPI.
 
 ```shell
 npm i
 ```
 
-## EJECUCIÓN
+## EXECUTION
 
-Ejecutar el comando desde la terminal ubicado en ./NODEJS-SEQUELIZE-RESTAPI.
+Execute the command from the terminal located in ./NODEJS-SEQUELIZE-RESTAPI.
 
 ```shell
 npm run dev
