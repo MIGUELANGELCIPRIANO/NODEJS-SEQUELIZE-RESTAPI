@@ -2,6 +2,7 @@ import { Router } from 'express'
 import {
 	createProject,
 	deleteProject,
+	getProjectTasks,
 	getProjects,
 	getproject,
 	updateProject,
@@ -14,5 +15,6 @@ router.post('/projects', createProject)
 router.put('/projects/:id', updateProject)
 router.delete('/projects/:id', deleteProject)
 router.get('/projects/:id', getproject)
+router.get('/projects/:id/tasks', getProjectTasks)
 
 export default router

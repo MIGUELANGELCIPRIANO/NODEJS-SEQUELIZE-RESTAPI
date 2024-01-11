@@ -17,6 +17,7 @@ export const getTask = async (req, res) => {
 				id,
 			},
 		})
+		if (!task) return res.status(404).json({ message: 'Task does not exist' })
 		res.json(task)
 	} catch (error) {
 		return res.status(500).json({ message: error.message })
