@@ -37,7 +37,8 @@ npm i
 
 ## EXECUTION
 
-Execute the command from the terminal located in ./NODEJS-SEQUELIZE-RESTAPI.
+7. Use the **npm** package manager to run.
+8. Execute the command from the terminal located in ./NODEJS-SEQUELIZE-RESTAPI.
 
 ```shell
 npm run dev
