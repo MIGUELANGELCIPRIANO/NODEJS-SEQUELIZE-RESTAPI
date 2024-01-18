@@ -17,22 +17,28 @@ This project aims to understand the basic operation of **Sequelize**, route crea
 
 ## INSTALLATION
 
-1. Install **Node.js**.
-2. Install **PostgreSQL**.
-3. Create a database with the name `projectsdb`.
-4. Create an .env file inside ./NODEJS-SEQUELIZE-RESTAPI and replace `userpostgres` and `passwordpostgres` with your credentials.
+1. Install the recommended version for most users of **Node.js** from the following link.
 
-```js
-DB_NAME=projectsdb
-DB_USER=userpostgres
-DB_PASSWORD=passwordpostgres
-```
+https://nodejs.org/en
 
-5. Use the **npm** package manager to install.
-6. Execute the command from the terminal located in ./NODEJS-SEQUELIZE-RESTAPI.
+2. Install the latest stable version of **PostgreSQL** from the following link.
+
+https://www.postgresql.org/
+
+3. Use the **npm** package manager to install.
+4. Execute the command from the terminal located in ./NODEJS-SEQUELIZE-RESTAPI.
 
 ```shell
 npm i
+```
+
+5. Create a database with the name `projectsdb`.
+6. Create an .env file inside ./NODEJS-SEQUELIZE-RESTAPI and replace `userpostgres` and `passwordpostgres` with your credentials.
+
+```js
+DB_NAME = projectsdb
+DB_USER = userpostgres
+DB_PASSWORD = passwordpostgres
 ```
 
 ## EXECUTION
