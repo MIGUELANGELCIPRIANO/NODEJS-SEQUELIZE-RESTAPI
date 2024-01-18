@@ -1,7 +1,7 @@
 {
 	"name": "nodejs-sequelize-restapi",
 	"version": "1.0.0",
-	"description": "De qué se trara? Resumen breve para comprender proyecto. Para qué sirve y quien puede utilizarlo:",
+	"description": "Creation of a REST API using Sequelize and PostgreSQL",
 	"main": "index.js",
 	"type": "module",
 	"scripts": {
