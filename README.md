@@ -26,7 +26,7 @@ https://nodejs.org/en
 https://www.postgresql.org/
 
 3. Use the **npm** package manager to install.
-4. Execute the command from the terminal located in ./NODEJS-SEQUELIZE-RESTAPI.
+4. Execute the command from the terminal located at ./NODEJS-SEQUELIZE-RESTAPI.
 
 ```shell
 npm i
@@ -44,7 +44,7 @@ DB_PASSWORD = passwordpostgres
 ## EXECUTION
 
 7. Use the **npm** package manager to run.
-8. Execute the command from the terminal located in ./NODEJS-SEQUELIZE-RESTAPI.
+8. Execute the command from the terminal located at ./NODEJS-SEQUELIZE-RESTAPI.
 
 ```shell
 npm run dev
