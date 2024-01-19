@@ -1,7 +1,7 @@
 {
 	"name": "nodejs-sequelize-restapi",
 	"version": "1.0.0",
-	"description": "Creation of a REST API using Sequelize and PostgreSQL",
+	"description": "Creating a REST API using Sequelize and PostgreSQL",
 	"main": "index.js",
 	"type": "module",
 	"scripts": {
