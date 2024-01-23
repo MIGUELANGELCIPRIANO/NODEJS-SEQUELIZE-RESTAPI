@@ -1,6 +1,6 @@
 # NODEJS-SEQUELIZE-RESTAPI
 
-<img width="50%" src="https://i.postimg.cc/4NH55sPK/SEQUELIZE-REST-API.png" />
+<img width="50%" src="https://i.postimg.cc/h4LTss7B/SEQUELIZE-REST-API.png" />
 
 ## INTRODUCTION
 
